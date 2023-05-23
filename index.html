@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="index.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    
+    <div id="ex1" class="example">
+      <div class="container">
+        .container
+        <div class="row">
+          <div class="col-xs-3 column">1st column, starts on the left<br>.col-xs-4</div>
+          <div class="col-xs-3 column">2nd column<br>.col-xs-4</div>
+          <div class="col-xs-3 column">3rd column<br>.col-xs-4</div>
+          <div class="col-xs-3 column">4th column<br>.col-xs-4</div>
+        </div>
+      </div>
+    </div>
+    
+    <div id="ex2" class="example">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-3 column">.col-xs-3</div>
+          <div class="col-xs-3 column">.col-xs-3</div>
+          <div class="col-xs-3 column">.col-xs-3</div>
+          <div class="col-xs-3 column">.col-xs-3</div>
+        </div>
+      </div>
+    </div>
+    
+    <div id="ex3" class="example">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-3 column">.col-xs-3</div>
+          <div class="col-xs-3 column">.col-xs-3</div>
+          <div class="col-xs-3 column">.col-xs-3</div>
+          <div class="col-xs-4 column">.col-xs-4</div>
+        </div>
+      </div>
+    </div>
+    <div id="ex10" class="example">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-3">
+            <div class="column">
+              Content
+            </div>
+          </div>
+          <div class="col-xs-3">
+            <div class="column">
+              Content
+            </div>
+          </div>
+          <div class="col-xs-3">
+            <div class="column">
+              Content
+            </div>
+          </div>
+          <div class="col-xs-3">
+            <div class="column">
+              Content
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="ex4" class="example">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12 col-md-4 column">.col-xs-12<br>.col-md-4</div>
+          <div class="col-xs-12 col-md-4 column">.col-xs-12<br>.col-md-4</div>
+          <div class="col-xs-12 col-md-4 column">.col-xs-12<br>.col-md-4</div>
+        </div>
+      </div>
+    </div>
+    <div id="ex5" class="example">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-6 col-sm-4 col-md-3 col-lg-2 column">.col-xs-6<br>.col-sm-4<br>.col-md-3<br>.col-lg-2</div>
+          <div class="col-xs-6 col-sm-4 col-md-3 col-lg-2 column">.col-xs-6<br>.col-sm-4<br>.col-md-3<br>.col-lg-2</div>
+          <div class="col-xs-6 col-sm-4 col-md-3 col-lg-2 column">.col-xs-6<br>.col-sm-4<br>.col-md-3<br>.col-lg-2</div>
+        </div>
+      </div>
+    </div>
+    <div id="ex6" class="example">
+      <div class="container">
+        No Clearfix
+        <div class="row">
+          <div class="col-xs-6 col-sm-3 column">.col-xs-6 .col-sm-3<br>Resize your viewport or check it out on your phone for an example.</div>
+          <div class="col-xs-6 col-sm-3 column">.col-xs-6 .col-sm-3</div>
+          <div class="col-xs-6 col-sm-3 column">.col-xs-6 .col-sm-3</div>
+          <div class="col-xs-6 col-sm-3 column">.col-xs-6 .col-sm-3</div>
+        </div>
+      </div>
+    </div>
+    <div id="ex6" class="example">
+      <div class="container">
+        With Clearfix
+        <div class="row">
+          <div class="col-xs-6 col-sm-3 column">.col-xs-6 .col-sm-3<br>Resize your viewport or check it out on your phone for an example.</div>
+          <div class="col-xs-6 col-sm-3 column">.col-xs-6 .col-sm-3</div>
+          <!-- Add the extra clearfix for only xs devices -->
+          <div class="clearfix visible-xs-block"></div>
+          <div class="col-xs-6 col-sm-3 column">.col-xs-6 .col-sm-3</div>
+          <div class="col-xs-6 col-sm-3 column">.col-xs-6 .col-sm-3</div>
+        </div>
+      </div>
+    </div>
+    <div id="ex7" class="example">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-6 col-xs-offset-3 column">.col-xs-6 .col-xs-offset-3</div>
+          <div class="col-xs-3 column">.col-xs-3</div>
+          <div class="col-xs-3 col-md-6 col-md-offset-6 column">.col-xs-3 .col-md-6 .col-md-offset-6</div>
+        </div>
+      </div>
+    </div>
+    <div id="ex8" class="example">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-9 column">.col-xs-9</div>
+          <div class="col-xs-3 column">.col-xs-3</div>
+          <div class="col-xs-9 col-xs-push-3 column">.col-xs-9 .col-xs-push-3</div>
+          <div class="col-xs-3 col-xs-pull-9 column">.col-xs-3 .col-xs-pull-9</div>
+          <div class="col-xs-9 col-xs-push-3 column">.col-xs-9 .col-xs-push-3</div>
+          <div class="col-xs-3 column">.col-xs-3</div>
+        </div>
+      </div>
+    </div>
+    <div id="ex9" class="example">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-9 column">
+            Level 1: .col-xs-9
+            <div class="row">
+              <div class="col-xs-8 col-sm-6 column">
+                Level 2: .col-xs-8 .col-sm-6
+              </div>
+              <div class="col-xs-4 col-sm-6 column">
+                Level 2: .col-xs-4 .col-sm-6
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>

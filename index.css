@@ -1,0 +1,23 @@
+body {
+  padding: 20px;
+}
+
+.example {
+  padding-top: 20px;
+}
+
+#ex1 .container {
+  text-align: center;
+  background-color: orange;
+  padding-top: 15px;
+  padding-bottom: 25px;
+}
+
+.column {
+  border: 2px solid grey;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  text-align: center;
+  background-color: #192A53;
+  color: #f2f2f2;
+}
